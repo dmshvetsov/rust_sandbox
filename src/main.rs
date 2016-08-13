@@ -1,3 +1,5 @@
+mod thread_and_channel_1;
+
 fn main() {
-    println!("Hello, world!");
+    thread_and_channel_1::run();
 }
