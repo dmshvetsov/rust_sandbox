@@ -1,5 +1,6 @@
 mod thread_and_channel_1;
+mod non_blocking_io;
 
 fn main() {
-    thread_and_channel_1::run();
+    non_blocking_io::run();
 }
